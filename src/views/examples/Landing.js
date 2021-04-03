@@ -81,38 +81,12 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        The ability to decide your own future{" "}
+                        <span>Artificial Intellegence</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        My future is focused on becoming a Lead Engineer in an Artificial Intellegence company, working to maximize the working potential of the typical human being. 
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
                     </Col>
                   </Row>
                 </div>
@@ -148,22 +122,20 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            HyprTypr
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           HyprTypr is an application for assisting users in increasing their ability to type at faster speeds. HyprTypr is a simple project, meant for broad capabilities. 
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              Teaching
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              Creative
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              Appealing
                             </Badge>
                           </div>
                           <Button
@@ -172,7 +144,7 @@ class Landing extends React.Component {
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Learn More
                           </Button>
                         </CardBody>
                       </Card>
@@ -184,12 +156,10 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            301 Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Learning 301 and building project
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -220,12 +190,10 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            401 Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           Learning 401 and Project
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
